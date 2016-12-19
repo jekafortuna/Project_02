@@ -7,6 +7,7 @@ import static ua.kpi.parsingText.view.View.print;
 
 /**
  * Created by Evgeniy on 10.12.2016.
+ * Main class for running a program
  */
 public class Main {
     public static void main(String[] args) {
@@ -14,6 +15,7 @@ public class Main {
         System.out.println(controller.readFile(View.FILE_PATH));
         print();
 
+        //Run
         controller.processUser();
     }
 }
