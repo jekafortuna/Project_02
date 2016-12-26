@@ -14,7 +14,6 @@ public class Main {
         Controller controller = new Controller();
         System.out.println(controller.readFile(View.FILE_PATH));
         print();
-        System.out.println();
 
         //Run
         controller.processUser();
