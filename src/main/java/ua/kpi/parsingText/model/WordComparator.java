@@ -4,6 +4,7 @@ import java.util.Comparator;
 
 /**
  * Created by Evgeniy on 10.12.2016.
+ * Word comparator to find for every word correct place
  */
 public class WordComparator implements Comparator<Word> {
     @Override
